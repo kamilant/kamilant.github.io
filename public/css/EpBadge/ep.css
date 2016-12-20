@@ -1,0 +1,67 @@
+.Badge--cover {
+  position: absolute;
+  z-index: 1;
+  left: 104px;
+  z-index: 1;
+  top: -12px;
+}
+
+.Badge--cover img {
+  width: 471px;
+  transition: all ease-in .8s;
+}
+.Badge--cover img:hover {
+  filter: invert(100%);
+}
+.Badge--background {
+  background: #616161;
+  width: 1032px;
+  height: 367px;
+  position: relative;
+  top: 40px;
+  left: 23px;
+}
+.Badge--button {
+  background: #7CB342;
+  width: 190px;
+  height: 53px;
+  font-size: 24px;
+  border: none;
+  color: #F4F4F4;
+  position: absolute;
+  z-index: 0;
+  left: 570px;
+  top: 407px;
+}
+.Badge--songs a {
+  text-decoration: none;
+  color: #F4F4F4;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+.Badge--songs {
+  line-height: 2.1;
+  left: 60%;
+  top: 70px;
+  position: absolute;
+}
+.Badge--songs li {
+  transition: all ease-out .1s;
+}
+.Badge--songs li:hover{
+  border-left: 10px solid grey;
+  padding: 10px;
+}
+.Badge--songs li:active{
+  border-left: 10px solid grey;
+  transform: rotateY(25deg);
+}
+.Badge--rect {
+  width: 95px;
+height: 256px;
+background: #BDBDBD;
+position: absolute;
+left: 49%;
+top: 95px;
+}

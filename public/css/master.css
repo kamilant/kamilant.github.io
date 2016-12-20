@@ -1,0 +1,63 @@
+
+@import "Promo/master.css";
+@import "EpBadge/master.css";
+@import "Story/master.css";
+@import "Members/master.css";
+@import "Gigs/master.css";
+@import "Footer/master.css";
+body, html {
+  background: #121212;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #F4F4F4;
+  max-width: 1083px;
+  margin: 0 auto;
+  border: 4px solid #1a1a1a;
+  border-top: none;
+  border-bottom: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Promo {
+  clear: both;
+  background: url('../../public/img/ep.png') center center no-repeat;
+  background-size: cover;
+  height: 932px;
+}
+.Badge {
+  position: relative;
+  top: 68px;
+}
+.Story {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 720px;
+  background: url('../../public/img/ourstory.jpg');
+}
+.Members {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 900px;
+  background: url('../../public/img/members.jpg');
+  background-size: cover;
+  background-position-y: -320px;
+  display: flex;
+  flex-flow: column;
+  text-transform: uppercase;
+
+}
+.Gigs {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 766px;
+  background: url('../../public/img/gigs.jpg')
+}

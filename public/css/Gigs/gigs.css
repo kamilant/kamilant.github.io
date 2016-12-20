@@ -1,0 +1,48 @@
+.Gig {
+  width: 265px;
+    height: 79px;
+    background: #BDBDBD;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.Gigs--container {
+  width:1034px;
+  height: 466px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba( 97, 97, 97, .8);
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
+.Gigs--header{
+  line-height: 1.6;
+  letter-spacing: 10px;
+  text-align: center;
+  text-shadow: 0px 3px 5px rgba( 97, 97, 97, 0.8);
+  font-size: 24px;
+}
+.Gig--city {
+  align-self: flex-end;
+  align-content: center;
+  margin-left: auto;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.Gig--date {
+  color: #616161;
+    position: relative;
+    background: #E0E0E0;
+    top: 10px;
+    left: -3px;
+    height: 30px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    justify-content: center;
+    align-self: baseline;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-right: 15px;
+}

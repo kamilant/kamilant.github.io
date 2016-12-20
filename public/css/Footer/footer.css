@@ -1,0 +1,27 @@
+.Footer {
+  height: 240px;
+  background: #D8D8D8;
+}
+.Footer  h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  text-shadow: 0 2px 4px rgba(0,0,0,.5);
+  font-size: 48px;
+  position: relative;
+  top: -27px;
+}
+.Footer--socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.Footer--socialmedia img {
+  max-width: 100px;
+  margin: 20px;
+}
+.Footer--socialmedia ul {
+  display: inline-flex;
+}
