@@ -54,7 +54,9 @@ let EpBadge = React.createClass({
             <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Don't waste your time</li></a>
           </ul>
         </div>
-        <button className="Badge--button">BUY NOW</button>
+        <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
+          <button className="Badge--button">BUY NOW</button>
+        </a>
       </div>
     )
   }
