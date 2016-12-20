@@ -46,12 +46,12 @@ let EpBadge = React.createClass({
         <div className="Badge--rect"></div>
         <div className="Badge--songs">
           <ul>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Intro</li></a>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Morning Light</li></a>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Way</li></a>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Pride</li></a>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Neverending</li></a>
-            <a href="https://youtube.com/watch" ref="noopener noreferrer"><li>Don't waste your time</li></a>
+            <a href="https://www.youtube.com/watch?v=bhfa0Hs574Y&index=1&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer"><li>Intro</li></a>
+            <a href="https://www.youtube.com/watch?v=YLUlXByn25Q" ref="noopener noreferrer"><li>Morning Light</li></a>
+            <a href="https://www.youtube.com/watch?v=Ep_rxcRKCgg" ref="noopener noreferrer"><li>Way</li></a>
+            <a href="https://www.youtube.com/watch?v=M-gZhdBDQco&index=4&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer"><li>Pride</li></a>
+            <a href="https://www.youtube.com/watch?v=2nOHqjCuYUs" ref="noopener noreferrer"><li>Neverending</li></a>
+            <a href="https://www.youtube.com/watch?v=0ZjFEYi5j5M" ref="noopener noreferrer"><li>Don't waste your time</li></a>
           </ul>
         </div>
         <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
@@ -121,28 +121,28 @@ let Members = React.createClass({
         <div className="Members--leftrect">
           <h1>Members</h1>
           <div className="Member Member--vocal">
-            <a href="https://facebook.com"><div className="Member--photo"></div></a>
+            <a href="https://www.facebook.com/maciej.rogowski.7?fref=nf"><div className="Member--photo"></div></a>
           <span>  Maciej Rogowski</span>
           </div>
 
           <div className="Member--guitar">
             <div className="Member Member--guitar_kamil">
-              <a href="https://facebook.com/"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/kamil.antropik?fref=ts"><div className="Member--photo"></div></a>
           <span>    Kamil Antropik</span>
             </div>
             <div className="Member Member--guitar_andrzej">
-              <a href="https://facebook.com/"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/andrzej.kossuth?fref=ufi"><div className="Member--photo"></div></a>
               <span>Andrzej Kossuth</span>
             </div>
           </div>
 
           <div className="Member--rythm">
             <div className="Member Member--rythm_adrian">
-              <a href="https://facebook.com/"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/admijarocki?fref=ts"><div className="Member--photo"></div></a>
             <span>  Adrian Jarocki</span>
             </div>
             <div className="Member Member--rythm_mateusz">
-              <a href="https://facebook.com/"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/M.Sredzinski?fref=ts"><div className="Member--photo"></div></a>
               <span>Mateusz Średziński</span>
             </div>
           </div>
