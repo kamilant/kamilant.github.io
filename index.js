@@ -200,6 +200,7 @@ let Footer = React.createClass({
             <ul>
               <a href="https://www.facebook.com/WithAllYourStrength/" ref='noopener noreferrer'><li><img src={`${IMG}fb.png`} /></li></a>
               <a href="https://facebook.com" ref='noopener noreferrer'><li><img src={`${IMG}insta.png`} /></li></a>
+              <a href="mailto:withallyourstrengthband@gmail.com" ref='noopener noreferrer'><li><img src={`${IMG}mln.png`} /></li></a>
             </ul>
         </div>
         </footer>

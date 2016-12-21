@@ -50,9 +50,8 @@ padding: 30px;
   color: inherit;
 }
 .Nav--list a:hover {
-  background: azure;
-  color: darkgrey;
   padding-top: 10px;
+  border-bottom: 5px solid #ddd;
 }
 
 .Nav--list a:last-of-type {

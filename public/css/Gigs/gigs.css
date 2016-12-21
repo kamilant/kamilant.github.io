@@ -5,6 +5,15 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
+    transition: all .4s;
+}
+.Gig:hover {
+  transform: scale(1.1);
+  color: #333;
+}
+.Gig:hover .Gig--date {
+  transform: scale(1.1) translateY(-10px);
+
 }
 .Gigs--container {
   width:1034px;
@@ -32,6 +41,7 @@
   margin-right: 5px;
 }
 .Gig--date {
+  transition: transform ease-out .4s;
   color: #616161;
     position: relative;
     background: #E0E0E0;

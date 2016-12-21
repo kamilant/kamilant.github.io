@@ -31,6 +31,10 @@
   width: 158px;
   height: 182px;
   background: #9E9E9E;
+  transition: transform ease-in .3s;
+}
+.Member--photo:hover {
+  transform: scale(1.1) translateX(15px);;
 }
 .Member--guitar, .Member--rythm {
   margin: 0 auto;
