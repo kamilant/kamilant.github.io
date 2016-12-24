@@ -10,10 +10,10 @@
 .Gig:hover {
   transform: scale(1.1);
   color: #333;
+
 }
 .Gig:hover .Gig--date {
   transform: scale(1.1) translateY(-10px);
-
 }
 .Gigs--container {
   width:1034px;

@@ -41,22 +41,28 @@ let EpBadge = React.createClass({
   render: () => {
     return (
       <div className="Badge">
-        <div className="Badge--cover"><img src={`${IMG}/ep.jpg`} /></div>
-        <div className="Badge--background"></div>
-        <div className="Badge--rect"></div>
-        <div className="Badge--songs">
-          <ul>
-            <a href="https://www.youtube.com/watch?v=bhfa0Hs574Y&index=1&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer"><li>Intro</li></a>
-            <a href="https://www.youtube.com/watch?v=YLUlXByn25Q" ref="noopener noreferrer"><li>Morning Light</li></a>
-            <a href="https://www.youtube.com/watch?v=Ep_rxcRKCgg" ref="noopener noreferrer"><li>Way</li></a>
-            <a href="https://www.youtube.com/watch?v=M-gZhdBDQco&index=4&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer"><li>Pride</li></a>
-            <a href="https://www.youtube.com/watch?v=2nOHqjCuYUs" ref="noopener noreferrer"><li>Neverending</li></a>
-            <a href="https://www.youtube.com/watch?v=0ZjFEYi5j5M" ref="noopener noreferrer"><li>Don't waste your time</li></a>
-          </ul>
+
+        <div className="Badge--wrapper">
+
+          <div className="Badge--cover">
+            <img src={`${IMG}/ep.jpg`} />
+            <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
+              <button className="Badge--button">BUY NOW</button>
+            </a>
+          </div>
+
+          <div className="Badge--songs">
+            <ul>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=bhfa0Hs574Y&index=1&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer">Intro</a></div></li>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=YLUlXByn25Q" ref="noopener noreferrer">Morning Light</a></div></li>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=Ep_rxcRKCgg" ref="noopener noreferrer">Way</a></div></li>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=M-gZhdBDQco&index=4&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer">Pride</a></div></li>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=2nOHqjCuYUs" ref="noopener noreferrer">Neverending</a></div></li>
+              <li><div className="animate"><a href="https://www.youtube.com/watch?v=0ZjFEYi5j5M" ref="noopener noreferrer">Don't waste your time</a></div></li>
+            </ul>
+          </div>
+
         </div>
-        <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
-          <button className="Badge--button">BUY NOW</button>
-        </a>
       </div>
     )
   }

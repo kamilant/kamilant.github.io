@@ -20,40 +20,35 @@ padding: 30px;
   align-items: flex-end;
   display: inline-block;
   margin-left: auto;
-  position: relative;
-  top: -20px;
+  position: fixed;
+  top: 0px;
+  right: 35px;
+  z-index: 100;
+
 }
 .Nav--list li {
   display: inline-block;
-  margin-left: 40px;
-  margin-top: 10px;
-}
-.Nav--list ul {
-  letter-spacing: 4px;
-  background: rgba(68,68,68,0.6);
-  height: 40px;
-  font-weight: 100;
-  padding-right: 20px;
-  border-radius: 6px;
-  border-bottom-right-radius: 0px;
-  position: relative;
-  top: 30px;
-  width: 480px;
-}
-.Nav--list a {
-  color: white;
+  margin: 0 15px;
+  padding: 10px;
   border-bottom: 5.4px solid grey;
-  padding-bottom: 6px;
   transition: all ease-out .3s;
 }
-.Nav--list a:visited {
-  color: inherit;
-}
-.Nav--list a:hover {
+.Nav--list li:hover {
   padding-top: 10px;
   border-bottom: 5px solid #ddd;
 }
-
-.Nav--list a:last-of-type {
-  margin-right: 10px;
+.Nav--list ul {
+  letter-spacing: 4px;
+  background: rgba(68,68,68,0.7);
+  font-weight: 100;
+  position: relative;
+  left: 30px;
+}
+.Nav--list a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.Nav--list a:visited {
+  color: inherit;
 }
