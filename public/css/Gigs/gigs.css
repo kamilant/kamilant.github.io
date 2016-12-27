@@ -29,8 +29,11 @@
   line-height: 1.6;
   letter-spacing: 10px;
   text-align: center;
-  text-shadow: 0px 3px 5px rgba( 97, 97, 97, 0.8);
+  text-shadow: 0px 0px 4px black;
   font-size: 24px;
+}
+.Gigs--header h1 {
+  margin-bottom: 0px;
 }
 .Gig--city {
   align-self: flex-end;
