@@ -201,7 +201,6 @@ let Footer = React.createClass({
       <div className="Footer" id="Footer">
 
         <footer>
-          <h1>get in touch with us</h1>
           <div className="Footer--socialmedia">
             <ul>
               <a href="https://www.facebook.com/WithAllYourStrength/" ref='noopener noreferrer' target='_blank'><li><img src={`${IMG}fb.png`} /></li></a>
