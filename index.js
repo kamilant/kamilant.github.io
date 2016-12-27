@@ -204,9 +204,9 @@ let Footer = React.createClass({
           <h1>get in touch with us</h1>
           <div className="Footer--socialmedia">
             <ul>
-              <a href="https://www.facebook.com/WithAllYourStrength/" ref='noopener noreferrer'><li><img src={`${IMG}fb.png`} /></li></a>
-              <a href="https://facebook.com" ref='noopener noreferrer'><li><img src={`${IMG}insta.png`} /></li></a>
-              <a href="mailto:withallyourstrengthband@gmail.com" ref='noopener noreferrer'><li><img src={`${IMG}mln.png`} /></li></a>
+              <a href="https://www.facebook.com/WithAllYourStrength/" ref='noopener noreferrer' target='_blank'><li><img src={`${IMG}fb.png`} /></li></a>
+              <a href="https://facebook.com" ref='noopener noreferrer' target='_blank'><li><img src={`${IMG}insta.png`} /></li></a>
+              <a href="mailto:withallyourstrengthband@gmail.com" ref='noopener noreferrer' target='_blank'><li><img src={`${IMG}mln.png`} /></li></a>
             </ul>
         </div>
         </footer>
