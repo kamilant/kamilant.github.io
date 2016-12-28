@@ -49,7 +49,8 @@ ul {
   min-height: 1180px;
   background: url('../../public/img/members.jpg');
   background-size: cover;
-  background-position-y: -590px;
+  background-position-y: -480px;
+  background-position-x: 100px;
   display: flex;
   flex-flow: column;
   text-transform: uppercase;
