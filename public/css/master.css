@@ -41,16 +41,16 @@ ul {
   justify-content: center;
   min-height: 1180px;
   background: url('../../public/img/ourstory.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Members {
-  display: flex;
-  flex-flow: column;
   justify-content: center;
   min-height: 1180px;
-  background: url('../../public/img/members.jpg');
+  background: url('../../public/img/members1.jpg');
   background-size: cover;
   background-position-y: -480px;
-  background-position-x: 100px;
+  background-repeat: no-repeat;
   display: flex;
   flex-flow: column;
   text-transform: uppercase;
