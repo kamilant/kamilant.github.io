@@ -39,14 +39,14 @@ ul {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  height: 720px;
+  min-height: 1180px;
   background: url('../../public/img/ourstory.jpg');
 }
 .Members {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  height: 900px;
+  min-height: 1180px;
   background: url('../../public/img/members.jpg');
   background-size: cover;
   background-position-y: -590px;
@@ -60,7 +60,7 @@ ul {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  height: 766px;
+  min-height: 1180px;
   background: url('../../public/img/gigs.jpg');
   background-repeat: no-repeat;
   background-size: cover;

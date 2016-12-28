@@ -4,11 +4,11 @@
 }
 .Members--leftrect {
   background-color: rgba(189,189,189, .2);
-  width:453px;
-  height:879px;
+  width: 453px;
+  height: 879px;
   position: relative;
-  left: 20px;
-  top: 10px;
+  left: 130px;
+  top: -60px;
 }
 .Member--vocal {
   position: relative;
