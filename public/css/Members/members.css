@@ -30,6 +30,11 @@
     text-shadow: 0px 2px 6px #444;
 }
 
+.Member--photo img {
+    width: 150px;
+    height: 182px;
+}
+
 .Member--photo {
     width: 158px;
     height: 182px;
