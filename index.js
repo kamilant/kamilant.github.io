@@ -128,28 +128,39 @@ let Members = React.createClass({
         <div className="Members--leftrect">
           <h1>Members</h1>
           <div className="Member Member--vocal">
-            <a href="https://www.facebook.com/maciej.rogowski.7?fref=nf"><div className="Member--photo"></div></a>
+            <a href="https://www.facebook.com/maciej.rogowski.7?fref=nf"><div className="Member--photo">
+              <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/12038800_1215560505137746_5357561982515040854_o.jpg?oh=aa3a8a70e680b7253e24a7fc66c2dafc&oe=5922A2D5" />
+            </div></a>
           <span>  Maciej Rogowski</span>
           </div>
 
           <div className="Member--guitar">
             <div className="Member Member--guitar_kamil">
-              <a href="https://www.facebook.com/kamil.antropik?fref=ts"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/kamil.antropik?fref=ts"><div className="Member--photo">
+                <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12832462_10206353153764173_8311900422795533984_n.jpg?oh=51610187101fd0704ce5a4ab861c0135&oe=58E15CC1" />
+
+              </div></a>
           <span>    Kamil Antropik</span>
             </div>
             <div className="Member Member--guitar_andrzej">
-              <a href="https://www.facebook.com/andrzej.kossuth?fref=ufi"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/andrzej.kossuth?fref=ufi"><div className="Member--photo">
+                <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/1398626_1047805365291088_1681189693534679710_o.jpg?oh=64fc9023162458b1c20dae73caf97982&oe=58DCEDAA" />
+              </div></a>
               <span>Andrzej Kossuth</span>
             </div>
           </div>
 
           <div className="Member--rythm">
             <div className="Member Member--rythm_adrian">
-              <a href="https://www.facebook.com/admijarocki?fref=ts"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/admijarocki?fref=ts"><div className="Member--photo">
+                <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12806085_1019857651421283_3217556795267257896_n.jpg?oh=c95ec3530ca5cbf03e5cb39d25be5d13&oe=58E5FA99"/>
+              </div></a>
             <span>  Adrian Jarocki</span>
             </div>
             <div className="Member Member--rythm_mateusz">
-              <a href="https://www.facebook.com/M.Sredzinski?fref=ts"><div className="Member--photo"></div></a>
+              <a href="https://www.facebook.com/M.Sredzinski?fref=ts">
+
+              <div className="Member--photo"></div></a>
               <span>Mateusz Średziński</span>
             </div>
           </div>

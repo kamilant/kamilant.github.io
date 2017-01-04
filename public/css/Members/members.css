@@ -1,39 +1,46 @@
-.Members--leftrect > h1 {
-  text-align: center;
-  letter-spacing: 8px;
+.Members--leftrect>h1 {
+    text-align: center;
+    letter-spacing: 8px;
 }
+
 .Members--leftrect {
-  background-color: rgba(189,189,189, .2);
-  width: 453px;
-  height: 879px;
-  position: relative;
-  left: 130px;
+    background-color: rgba(189, 189, 189, .2);
+    width: 453px;
+    height: 879px;
+    position: relative;
+    left: 130px;
 }
+
 .Member--vocal {
-  position: relative;
-  left: 22%;
+    position: relative;
+    left: 22%;
 }
+
 .Member {
-  display: inline-block;
-  font-size: 18px !important;
-  margin-left: 40px;
-  text-align: center;
-  margin-bottom: 70px;
+    display: inline-block;
+    font-size: 18px !important;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 70px;
 }
-.Member > span {
-  position: relative;
-  top: 20px;
-  text-shadow: 0px 2px 6px #444;
+
+.Member>span {
+    position: relative;
+    top: 20px;
+    text-shadow: 0px 2px 6px #444;
 }
+
 .Member--photo {
-  width: 158px;
-  height: 182px;
-  background: #9E9E9E;
-  transition: transform ease-in .3s;
+    width: 158px;
+    height: 182px;
+    background: #9E9E9E;
+    transition: transform ease-in .3s;
 }
+
 .Member--photo:hover {
-  transform: scale(1.1) translateX(15px);;
+    transform: scale(1.1);
 }
+
 .Member--guitar, .Member--rythm {
-  margin: 0 auto;
+    margin: 0 auto;
 }
