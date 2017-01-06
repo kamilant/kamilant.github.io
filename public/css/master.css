@@ -1,4 +1,3 @@
-
 @import "Promo/master.css";
 @import "EpBadge/master.css";
 @import "Story/master.css";
@@ -6,64 +5,108 @@
 @import "Gigs/master.css";
 @import "Footer/master.css";
 body, html {
-  box-sizing: border-box;
-  background: #1a1a1a;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  color: #F4F4F4;
-  min-width: 1183px;
-  margin: 0 auto;
-  border: 2px solid #e0e0e0;
-  border-top: none;
-  border-bottom: none;
+    box-sizing: border-box;
+    background: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #F4F4F4;
+    min-width: 1183px;
+    margin: 0 auto;
+    border: 2px solid #e0e0e0;
+    border-top: none;
+    border-bottom: none;
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .Promo {
-  clear: both;
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #232526 , #414345, #bdbdbd);
-  background-size: cover;
-  height: 100%;
+    clear: both;
+    /*background: #232526; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to bottom, #232526 , #414345, #bdbdbd);*/
+    background-size: cover;
+    background: linear-gradient(180deg, #232526, #414345, #bdbdbd);
+    background-size: 170% 170%;
+    height: 100%;
+    margin-top: 115px;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s ease-in-out infinite;
+    animation: AnimationName 20s ease-in-out infinite;
 }
-.Badge {
 
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+    50% {
+        background-position: 51% 65%
+    }
+    100% {
+        background-position: 50% 0%
+    }
 }
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+    50% {
+        background-position: 51% 65%
+    }
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+    50% {
+        background-position: 51% 65%
+    }
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+.Badge {}
+
 .Story {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  min-height: 1180px;
-  background: url('../../public/img/ourstory.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 1180px;
+    background: url('../../public/img/ourstory.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.Members {
-  justify-content: center;
-  min-height: 1180px;
-  background: url('../../public/img/members1.jpg');
-  background-size: cover;
-  background-position-y: -480px;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-flow: column;
-  text-transform: uppercase;
 
+.Members {
+    justify-content: center;
+    min-height: 1180px;
+    background: url('../../public/img/members1.jpg');
+    background-size: cover;
+    background-position-y: -480px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    text-transform: uppercase;
 }
+
 .Gigs {
-  align-items: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  min-height: 1180px;
-  background: url('../../public/img/gigs.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px -140px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 1180px;
+    background: url('../../public/img/gigs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
