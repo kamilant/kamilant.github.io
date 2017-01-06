@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
     z-index: 100;
 }
 
@@ -17,8 +17,6 @@
 
 .Nav--logo img {
     width: 350px;
-    /*transition: all ease-in-out .4s;*/
-    /*animation: pulse infinite;*/
 }
 
 @-webkit-keyframes pulse {
@@ -64,7 +62,6 @@
 .Nav--list {
     display: flex;
     align-self: center;
-    margin-left: auto;
     z-index: 100;
 }
 
@@ -101,10 +98,4 @@
 
 .Nav--list a:visited {
     color: inherit;
-}
-
-t;
-
-}
-
 }
