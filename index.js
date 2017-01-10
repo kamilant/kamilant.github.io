@@ -117,6 +117,10 @@ let Promo = React.createClass({
        <Nav></Nav>
        <EpBar></EpBar>
        <EpBadge></EpBadge>
+       <video autoPlay loop>
+         <source src="public/video/ink.mp4" type="video/mp4" />
+         Your browser does not support the video tag.
+       </video>
      </div>
   )}
 });

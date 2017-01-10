@@ -6,16 +6,15 @@
 @import "Footer/master.css";
 body, html {
     box-sizing: border-box;
-    background: #1a1a1a;
-    margin: 0;
+    margin-top: 120px;
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: #F4F4F4;
     min-width: 1183px;
     margin: 0 auto;
-    border: 2px solid #e0e0e0;
+    /*border: 2px solid #e0e0e0;
     border-top: none;
-    border-bottom: none;
+    border-bottom: none;*/
 }
 
 ul {
@@ -24,23 +23,34 @@ ul {
     padding: 0;
 }
 
+video {
+    position: absolute;
+    height: 1169px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
 .Promo {
     clear: both;
+    height: 100%;
+    margin-top: 115px;
     /*background: #232526; /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to top, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to bottom, #232526 , #414345, #bdbdbd);*/
-    background-size: cover;
+    /*background-size: cover;
     background: linear-gradient(180deg, #232526, #414345, #bdbdbd);
     background-size: 170% 170%;
-    height: 100%;
-    margin-top: 115px;
+
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
     -o-animation: AnimationName 20s ease-in-out infinite;
-    animation: AnimationName 20s ease-in-out infinite;
+    animation: AnimationName 20s ease-in-out infinite;*/
 }
 
-@-webkit-keyframes AnimationName {
+
+/*@-webkit-keyframes AnimationName {
     0% {
         background-position: 50% 0%
     }
@@ -74,7 +84,7 @@ ul {
     100% {
         background-position: 50% 0%
     }
-}
+}*/
 
 .Badge {}
 
