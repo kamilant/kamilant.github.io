@@ -6,7 +6,7 @@ let Nav = React.createClass({
         <div className="Nav--logo"><img src={`${IMG}/logo1.png`} alt="With All Your Strength logo" id="Index"/></div>
         <div className="Nav--list">
           <ul>
-            <a href="#Index"><li>Home</li></a>
+            <a href="#index"><li>Home</li></a>
             <a href="#About"><li>About</li></a>
             <a href="#Gigs"><li>Gigs</li></a>
             <a href="#Members"><li>Members</li></a>
