@@ -47,12 +47,13 @@ let EpBadge = React.createClass({
 
           <div className="Badge--cover">
             <img src={`${IMG}/ep.jpg`} />
-            <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
+            {/* <a href="http://withallyourstrength.bigcartel.com/" ref="noopener noreferrer">
               <button className="Badge--button">BUY NOW</button>
-            </a>
+            </a> */}
           </div>
 
           <div className="Badge--songs">
+            <h1>LISTEN</h1>
             <ul>
               <li><div className="animate"><a href="https://www.youtube.com/watch?v=bhfa0Hs574Y&index=1&list=PL2DJfL8ohhKWb2YFT06vhp2aUboS5kakN" ref="noopener noreferrer">Intro</a></div></li>
               <li><div className="animate"><a href="https://www.youtube.com/watch?v=YLUlXByn25Q" ref="noopener noreferrer">Morning Light</a></div></li>

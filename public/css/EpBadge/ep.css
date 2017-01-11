@@ -54,6 +54,14 @@
     width: 100%;
 }
 
+.Badge--songs h1 {
+    text-shadow: 0px 0px 11px greenyellow;
+    position: absolute;
+    top: 330px;
+    right: 390px;
+    letter-spacing: 25px;
+}
+
 .Badge--songs li {
     width: 300px;
 }
